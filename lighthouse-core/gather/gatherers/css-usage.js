@@ -24,6 +24,7 @@ class CSSUsage extends Gatherer {
       .then(_ => driver.sendCommand('CSS.startRuleUsageTracking'))
       .then(_ => driver.evaluateAsync('getComputedStyle(document.body)'))
       .then(_ => {
+        driver.off('CSS.styleSheetAdded', onStylesheetAdded);
         const promises = stylesheets.map(sheet => {
           const styleSheetId = sheet.header.styleSheetId;
           return driver.sendCommand('CSS.getStyleSheetText', {styleSheetId}).then(content => {
