@@ -8,7 +8,7 @@ We ship twice a month, on the Thursday before the 15th and the Thursday before 1
 
 ### Release manager
 
-Rather than a rotation, release manager is appointed. However if the appointed manager is absent, the next engineer in the following list owns it:
+Release manager is appointed, according to the list below. However, if the appointed manager is absent, the next engineer in line in the list would own it.
 
     bckenny, paulirish, patrickhulce
 
@@ -17,9 +17,10 @@ Release manager follows the below _Release Process_.
 ### Release publicity
 
 1. Release mgr copies changelog to a new [Releases](https://github.com/GoogleChrome/lighthouse/releases). Tags and ships it.
+   * Include a line of `We expect this release to ship in the DevTools of Chrome XX`.
 1. Release mgr tells the _LH public_ Hangout chat about the new version.
-1. V writes and publishes the [/updates](https://developers.google.com/web/updates/) blog post
-1. Paul writes the tweet and sends it on [@____lighthouse](https://twitter.com/____lighthouse).
+1. V & Kayce write and publishes the [/updates](https://developers.google.com/web/updates/) blog post
+1. Paul writes the tweet (linking the /updates post) and sends it on [@____lighthouse](https://twitter.com/____lighthouse).
 1. Paul prepares a roll for DevTools frontend
 
 ### Versioning
