@@ -4,7 +4,7 @@
 
 ### Cadence
 
-We ship twice a month, on the Thursday before the 15th and the Thursday before 1st. These dates are added to the internal Lighthouse calendar.
+We ship once a month, on the Thursday before the 1st. While not necessary, followup minor/patch releases may be done if warranted. The planned ship dates are added to the internal Lighthouse calendar.
 
 ### Release manager
 
