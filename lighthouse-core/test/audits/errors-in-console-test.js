@@ -147,9 +147,7 @@ describe('Console error logs audit', () => {
     assert.equal(auditResult.rawValue, 1);
     assert.equal(auditResult.score, false);
     assert.equal(auditResult.details.items.length, 1);
-    // url is undefined
     assert.strictEqual(auditResult.details.items[0][0].text, 'http://example.com/fancybox.js');
-    // text is undefined
     assert.strictEqual(auditResult.details.items[0][1].text,
       'TypeError: Cannot read property \'msie\' of undefined');
   });
